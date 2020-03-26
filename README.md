@@ -80,3 +80,4 @@ To visualize data from ROS topics:
 The code is open to contributions, so do not hesitate to ask questions, propose pull requests or create bug reports. In case of any issue, please add it here on github. 
 For any other information contact us [here](https://www.prophesee.ai/contact-us/) 
 
+# prophesee_event_camera
