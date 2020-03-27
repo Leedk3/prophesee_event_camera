@@ -66,7 +66,7 @@ void CDFrameGenerator::reset() {
         std::unique_lock<std::mutex> lock_show(frame_show_mutex_);
         frame_.setTo(cv::Scalar(128));
         frame_to_show_.setTo(cv::Scalar(128));
-
+        
         // Clean the pixels timstamps history
         ts_history_.assign(ts_history_.size(), 0);
     }
